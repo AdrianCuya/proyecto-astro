@@ -1,17 +1,44 @@
----
-
----
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
+		
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Hola</h1>
+		
+		<a href="/">Inicio</a>
+		<a href="/about/">Sobre mi</a>
+		<a href="/Blog/">Blog</a>
 		<h1>Mi sitio Astro</h1>
+		<p>Bienvenido <br>Esta es mi primera pagina en Astro</p>
+		
+		<style>
+			body {
+				background-color: lightblue;
+				font-family: system-ui, sans-serif;
+				line-height: 1.6;
+				padding: 2rem;
+				max-width: 650px;
+				margin: 0 auto;
+			}
+			h1 {
+				font-size: 2.5rem;
+				margin-bottom: 0;
+				font-size: 60px;
+			}
+			a {
+				position: relative;
+				right: 360px;
+				margin-right: 1rem;
+			}
+			p {
+				font-size: 1.25rem;
+				position: relative;
+				right: 360px;
+			}
+		</style>
 	</body>
 </html>
